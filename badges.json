@@ -343,10 +343,10 @@
     {
       "id": "sub-pt-br",
       "groupId": "subtitles",
-      "name": "🇧🇷 Legenda PT-BR",
+      "name": "🇧🇷 Legendas PT/BR",
       "isEnabled": true,
       "imageURL": "https://iili.io/C65Xg1e.png",
-      "pattern": "(?i)(?:\\b(?:subs?|subtitles?|legendas?)\\b[\\s._:\\-\\[\\]()]{0,8}(?:em[\\s._-]*)?(?:pt[\\s._-]?br|brazilian|portugu[eê]s[\\s._-]*(?:br|brasileiro))\\b|\\b(?:pt[\\s._-]?br|brazilian|portugu[eê]s[\\s._-]*(?:br|brasileiro))\\b[\\s._:\\-\\[\\]()]{0,8}\\b(?:subs?|subtitles?|legendas?)\\b)",
+      "pattern": "(?im)^(?=[^\\r\\n]*(?:💬|🗨|📝|\\b(?:subs?|subtitles?|legendas?)\\b))(?=[^\\r\\n]*(?<![A-Za-z0-9])(?:PT(?:[-_. ]?BR)?|BR)(?![A-Za-z0-9])))[^\\r\\n]*$",
       "tagColor": "#00000000",
       "textColor": "#00000000",
       "borderColor": "#00000000",
